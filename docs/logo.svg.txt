@@ -1,0 +1,49 @@
+<svg width="100%" viewBox="0 0 400 200" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>SimEd Studio Logo</title>
+  <defs>
+    <style>
+      .logo-primary { fill: #185FA5; }
+      .logo-secondary { fill: #0F6E56; }
+      .logo-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 600; }
+      .logo-heading { font-size: 28px; }
+      .logo-subtitle { font-size: 12px; fill: #5F5E5A; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="200" fill="#FFFFFF"/>
+  
+  <!-- Logo Mark (Left) -->
+  <g transform="translate(40, 40)">
+    <!-- Outer frame -->
+    <rect x="0" y="0" width="120" height="120" rx="12" fill="none" stroke="#185FA5" stroke-width="2.5" class="logo-primary"/>
+    
+    <!-- Grid of students (3x3) -->
+    <circle cx="20" cy="20" r="8" class="logo-primary"/>
+    <circle cx="60" cy="20" r="8" class="logo-primary"/>
+    <circle cx="100" cy="20" r="8" class="logo-primary"/>
+    <circle cx="20" cy="60" r="8" class="logo-primary"/>
+    <circle cx="60" cy="60" r="8" class="logo-secondary"/>
+    <circle cx="100" cy="60" r="8" class="logo-primary"/>
+    <circle cx="20" cy="100" r="8" class="logo-primary"/>
+    <circle cx="60" cy="100" r="8" class="logo-primary"/>
+    <circle cx="100" cy="100" r="8" class="logo-primary"/>
+    
+    <!-- Center highlight -->
+    <circle cx="60" cy="60" r="12" fill="none" stroke="#0F6E56" stroke-width="2" opacity="0.6"/>
+    
+    <!-- Simulation waves -->
+    <path d="M 0 135 Q 30 120 60 135 T 120 135" fill="none" stroke="#0F6E56" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 10 150 Q 40 135 70 150 T 120 150" fill="none" stroke="#0F6E56" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  </g>
+  
+  <!-- Logo Text (Right) -->
+  <g transform="translate(200, 55)">
+    <text x="0" y="0" class="logo-text logo-heading" fill="#185FA5">SimEd</text>
+    <text x="0" y="35" class="logo-text logo-heading" fill="#0F6E56">Studio</text>
+    
+    <!-- Tagline -->
+    <text x="0" y="65" class="logo-text logo-subtitle">AI Classroom Simulation Lab</text>
+    <text x="0" y="80" class="logo-text logo-subtitle">Saudi Vision 2030</text>
+  </g>
+</svg>
