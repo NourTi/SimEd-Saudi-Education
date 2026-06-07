@@ -17,7 +17,7 @@ AI-Powered Classroom Simulation Lab for Saudi Teachers
 
  System Architecture
 
-<img src="simed_dashboard_mockup.html" alt="SimEd Studio System Architecture" width="100%"/>
+<img src="simed_architecture_diagram.svg" alt="SimEd Studio System Architecture" width="100%"/>
 
 
 
