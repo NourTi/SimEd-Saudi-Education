@@ -1,0 +1,114 @@
+<div style="background: var(--color-background-tertiary); min-height: 800px; padding: 0;">
+  <!-- Header -->
+  <div style="background: var(--color-background-primary); border-bottom: 0.5px solid var(--color-border-tertiary); padding: 1.5rem; display: flex; align-items: center; justify-content: space-between;">
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #E6F1FB 0%, #E1F5EE 100%); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 500; color: #185FA5; font-size: 16px;">S</div>
+      <div>
+        <div style="font-weight: 500; font-size: 15px; color: var(--color-text-primary);">SimEd Studio</div>
+        <div style="font-size: 12px; color: var(--color-text-secondary);">Classroom Simulation Lab</div>
+      </div>
+    </div>
+    <button style="background: #185FA5; color: white; border: none; padding: 8px 16px; border-radius: 6px; font-size: 13px; cursor: pointer; font-weight: 500;">Deploy Agent</button>
+  </div>
+
+  <!-- Main Content -->
+  <div style="padding: 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; max-width: 1200px; margin: 0 auto;">
+    
+    <!-- Class Twin Card -->
+    <div style="background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: 12px; padding: 1.5rem;">
+      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 1rem;">
+        <i class="ti ti-users" style="font-size: 20px; color: #185FA5;"></i>
+        <h2 style="font-size: 16px; font-weight: 500; margin: 0; color: var(--color-text-primary);">Class Twin</h2>
+      </div>
+      <div style="background: var(--color-background-secondary); border-radius: 8px; padding: 1rem; margin-bottom: 1rem;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+          <div>
+            <div style="font-size: 12px; color: var(--color-text-secondary); margin-bottom: 4px;">Students</div>
+            <div style="font-size: 20px; font-weight: 500; color: #185FA5;">38</div>
+          </div>
+          <div>
+            <div style="font-size: 12px; color: var(--color-text-secondary); margin-bottom: 4px;">Proficiency</div>
+            <div style="font-size: 11px; color: var(--color-text-secondary);">Mixed (30/50/20)</div>
+          </div>
+          <div>
+            <div style="font-size: 12px; color: var(--color-text-secondary); margin-bottom: 4px;">Engagement</div>
+            <div style="font-size: 11px; color: var(--color-text-secondary);">45% active</div>
+          </div>
+          <div>
+            <div style="font-size: 12px; color: var(--color-text-secondary); margin-bottom: 4px;">Last Qiyas</div>
+            <div style="font-size: 11px; color: var(--color-text-secondary);">68%</div>
+          </div>
+        </div>
+      </div>
+      <button style="width: 100%; background: transparent; border: 0.5px solid var(--color-border-secondary); padding: 10px; border-radius: 6px; cursor: pointer; font-size: 13px; color: #185FA5; font-weight: 500;">Update Class Twin</button>
+    </div>
+
+    <!-- Scenario Selector -->
+    <div style="background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: 12px; padding: 1.5rem;">
+      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 1rem;">
+        <i class="ti ti-layout-grid" style="font-size: 20px; color: #0F6E56;"></i>
+        <h2 style="font-size: 16px; font-weight: 500; margin: 0; color: var(--color-text-primary);">Teaching Scenarios</h2>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="background: #E6F1FB; border: 1px solid #185FA5; border-radius: 8px; padding: 12px; cursor: pointer;">
+          <div style="font-size: 13px; font-weight: 500; color: #0C447C;">Scenario A: Traditional Lecture</div>
+          <div style="font-size: 11px; color: #185FA5; margin-top: 4px;">+ AI writing feedback</div>
+        </div>
+        <div style="background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: 8px; padding: 12px; cursor: pointer;">
+          <div style="font-size: 13px; font-weight: 500; color: var(--color-text-primary);">Scenario B: Small Groups</div>
+          <div style="font-size: 11px; color: var(--color-text-secondary); margin-top: 4px;">+ peer review</div>
+        </div>
+        <div style="background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: 8px; padding: 12px; cursor: pointer;">
+          <div style="font-size: 13px; font-weight: 500; color: var(--color-text-primary);">Scenario C: Project-Based</div>
+          <div style="font-size: 11px; color: var(--color-text-secondary); margin-top: 4px;">+ AI idea generation</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Simulation Results -->
+    <div style="grid-column: 1 / -1; background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: 12px; padding: 1.5rem;">
+      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 1.5rem;">
+        <i class="ti ti-chart-bar" style="font-size: 20px; color: #185FA5;"></i>
+        <h2 style="font-size: 16px; font-weight: 500; margin: 0; color: var(--color-text-primary);">Simulation Results</h2>
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1.5rem;">
+        <!-- Participation -->
+        <div style="background: var(--color-background-secondary); border-radius: 8px; padding: 1rem;">
+          <div style="font-size: 12px; color: var(--color-text-secondary); margin-bottom: 8px;">Participation Balance</div>
+          <div style="font-size: 20px; font-weight: 500; color: #0F6E56;">+23%</div>
+          <div style="font-size: 11px; color: var(--color-text-secondary); margin-top: 8px;">Quieter students engage more</div>
+        </div>
+
+        <!-- Workload -->
+        <div style="background: var(--color-background-secondary); border-radius: 8px; padding: 1rem;">
+          <div style="font-size: 12px; color: var(--color-text-secondary); margin-bottom: 8px;">Teacher Workload</div>
+          <div style="font-size: 20px; font-weight: 500; color: #185FA5;">-2h/week</div>
+          <div style="font-size: 11px; color: var(--color-text-secondary); margin-top: 8px;">Reduced grading time</div>
+        </div>
+
+        <!-- Equity Gap -->
+        <div style="background: var(--color-background-secondary); border-radius: 8px; padding: 1rem;">
+          <div style="font-size: 12px; color: var(--color-text-secondary); margin-bottom: 8px;">Equity Impact</div>
+          <div style="font-size: 20px; font-weight: 500; color: #3B6D11;">-18%</div>
+          <div style="font-size: 11px; color: var(--color-text-secondary); margin-top: 8px;">Gap narrows between levels</div>
+        </div>
+      </div>
+
+      <!-- Insight Narrative -->
+      <div style="background: #EEEDFE; border-left: 4px solid #534AB7; border-radius: 4px; padding: 1rem; margin-bottom: 1.5rem;">
+        <div style="font-size: 13px; color: #3C3489; line-height: 1.6;">
+          <strong>In Scenario B:</strong> Small-group activities improve quieter students' participation by 23% while maintaining engagement for advanced learners. Your workload decreases by 2 hours per week (reduced repetitive grading), and the achievement gap narrows by 18%. This scenario balances equity and sustainability.
+        </div>
+      </div>
+
+      <!-- Risk Alert -->
+      <div style="background: #FCEBEB; border-left: 4px solid #A32D2D; border-radius: 4px; padding: 1rem;">
+        <div style="font-size: 13px; color: #791F1F;">
+          <strong style="color: #791F1F;">⚠️ Scenario A risk:</strong> AI-heavy approach may widen gaps – struggling students become passive while advanced students rely on AI feedback instead of developing self-editing skills.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
