@@ -1,4 +1,26 @@
  SimEd Studio Watson Orchestrate Agent
+ # SimEd Studio
+
+<div align="center">
+  <img src="docs/logo.svg" alt="SimEd Studio Logo" width="400"/>
+</div>
+
+AI-Powered Classroom Simulation Lab for Saudi Teachers
+
+
+
+ How It Works
+
+<img src="docs/workflow.svg" alt="SimEd Studio Teacher Workflow" width="100%"/>
+
+
+
+ System Architecture
+
+<img src="docs/architecture.svg" alt="SimEd Studio System Architecture" width="100%"/>
+
+
+
 
  🚀 Live Agent
 
