@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  simed-bot:
+    build: .
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - SLACK_BOT_TOKEN=${SLACK_BOT_TOKEN}
+      - SLACK_APP_TOKEN=${SLACK_APP_TOKEN}
+      - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
+      - TWILIO_ACCOUNT_SID=${TWILIO_ACCOUNT_SID}
+      - TWILIO_AUTH_TOKEN=${TWILIO_AUTH_TOKEN}
+      - TWILIO_WHATSAPP_NUMBER=${TWILIO_WHATSAPP_NUMBER}
+      - ENVIRONMENT=production
+      - PLATFORM=all
+    ports:
+      - "5000:5000"
+    restart: always
+    volumes:
+      - ./logs:/app/logs
