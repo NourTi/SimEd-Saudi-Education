@@ -26,6 +26,38 @@ AI-Powered Classroom Simulation Lab for Saudi Teachers
 
 The SimEd Studio conversational AI agent is deployed and running on IBM Watson Orchestrate.
 
+Quick Start
+
+### 1. Setup Tokens
+
+Get bot tokens from:
+- **Discord:** https://discord.com/developers/applications
+- **Slack:** https://api.slack.com/apps
+- **Telegram:** https://t.me/BotFather
+- **WhatsApp:** https://www.twilio.com
+
+### 2. Configure Environment
+
+```bash
+cp .env.example .env
+# Edit .env with your tokens
+```
+
+3. Run with Docker
+
+```bash
+docker-compose up
+```
+
+ 4. Manual Run
+
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
+---
+
  Access the Agent Now
 
 👉 Go to: https://orchestrate.ibm.com  
